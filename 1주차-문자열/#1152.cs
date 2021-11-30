@@ -13,8 +13,8 @@ namespace BaekJoon
             string str = Console.ReadLine().Trim();
             string[] arr = str.Split('\x020');
             int count = 0;
-         
-            for(int i = 0; i < arr.Length; i++)  count++;
+
+            for (int i = 0; i < arr.Length; i++) count++;
             if (str.Length == 0) count = 0;
             Console.WriteLine(count);
         }
