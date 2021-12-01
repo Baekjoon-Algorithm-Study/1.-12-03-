@@ -1,4 +1,3 @@
-import string
 
 a = input().split()
 
