@@ -9,8 +9,8 @@ result = Counter(word)
 
 for key, value in result.items():
 
-    Dvalue = result.values()
-    value_list = sorted(Dvalue, reverse=True)
+    value_ = result.values()
+    value_list = sorted(value_, reverse=True)
     maxValue = result.most_common(1)[0][0]
 
     if len(result) >= 2:
@@ -23,5 +23,6 @@ for key, value in result.items():
 
     else:
         break
+        
     break
 
